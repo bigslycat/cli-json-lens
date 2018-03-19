@@ -6,6 +6,7 @@ before_script:
   - yarn install
 script: yarn ci && yarn build
 deploy:
+  skip_cleanup: true
   provider: npm
   email: me@stupidcat.wtf
   api_key:
