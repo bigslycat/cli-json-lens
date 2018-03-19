@@ -22,6 +22,7 @@ rules:
   no-unused-expressions: off
   consistent-return: off
   no-dupe-keys: error
+  no-console: off
 
   import/no-extraneous-dependencies: off
   import/prefer-default-export: off
