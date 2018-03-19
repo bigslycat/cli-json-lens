@@ -35,17 +35,15 @@ const { help, input, flags } = meow(
 
 const [file, path] = input
 
-if (typeof file != 'string') {
+if (typeof file != 'string')
   throw new Error(
     [`Arguments ${bold('file')} and ${bold('path')} are missing`, help].join(
       '\n',
     ),
   )
-}
 
-if (typeof path != 'string') {
+if (typeof path != 'string')
   throw new Error([`Argument ${bold('path')} is missing`, help].join('\n'))
-}
 
 const value = getJSONValue(file, path)
 
