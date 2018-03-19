@@ -2,6 +2,14 @@
   "name": "jlens",
   "version": "1.0.0",
   "description": "CLI for getting values from JSON",
+  "keywords": [
+    "JSON",
+    "lens",
+    "path",
+    "parsing",
+    "parser",
+    "CLI"
+  ],
   "repository": "git@github.com:bigslycat/jlens.git",
   "author": "Pavel Tereschenko <me@stupidcat.wtf> (https://github.com/bigslycat)",
   "license": "MIT",
