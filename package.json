@@ -14,6 +14,16 @@
   "author": "Pavel Tereschenko <me@stupidcat.wtf> (https://github.com/bigslycat)",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "flow": "flow",
+    "build": "rollup -c",
+    "precommit": "yarn lint",
+    "ci": "yarn lint && yarn flow && yarn test",
+    "preversion": "git checkout master && yarn ci",
+    "postversion": "git push --follow-tags"
+  },
   "main": "lib/index.js",
   "bin": {
     "jl": "lib/jl.js"

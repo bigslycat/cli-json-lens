@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - '4'
+  - '6'
+  - '8'
+before_script:
+  - yarn install
+script: yarn ci && yarn build
+deploy:
+  provider: npm
+  email: me@stupidcat.wtf
+  api_key:
+    secure: s0tnzd9kohohWtEMKCzt40vmXmM5wQECfCbhcx4golaoWaDJ0HHMKWoVq9rXCGSEH11VAYbDVcZW/3YV4BbbqxfyEuGeibduBMoTDL/77+8UxYLD8aTHhPN0dIANDceVcdnEUN5eWoCEq70MM2WMRivMDYqVDHER23SXNqp0qzjk57j+SvNOZwyrEZ3mb3rZT4HXlth43oH6Lz9A/5VhwLg49WEXzsEJbUy+p9CTqB8RenoDlNj4A3TsVGz2wxBsM0CviVBkHutjAh0Zf2XmFPBsbmahINutbuoN6c+PNvupBxMoSvSsxZ3q9mHqIiB/vemqwt8gfdb5jREvBT+opMNRPVzgq04SqlrEIeNx+PjZ+VapUBtve9R+oj3lk5wT9lWmTg6XxIGbegF3ykxmjfnpL0R/Ry5abpCGk9t0HlKEZJEstXreZsajFiSkiS3aerldyKs39EIxWg6xdasrldFmhEQm1dg+xbREOKKeAQjYid7wARwI3d4MCa59RMssSnMHZez2CXDvKreGlHV1axvc1rnCGVXF1EM7lOuss/+eFcOrqG64dTMQ3yc/RMF6eosFvE+wfg1D5i04PurPKL3gyeBJZ8KLQssvgdcB6050LA6tLzaMLTLjuvi1PcHBxkOQVcFpsS3fKeRiFRp8XQUwNNP2a79ZtER/bwvAndc=
+  on:
+    tags: true
+    repo: bigslycat/jlens
