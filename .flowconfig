@@ -1,5 +1,5 @@
 [ignore]
-<PROJECT_ROOT>/mingo
+<PROJECT_ROOT>/lib
 
 [include]
 
@@ -8,6 +8,5 @@
 [lints]
 
 [options]
-module.system=haste
 
 [strict]
