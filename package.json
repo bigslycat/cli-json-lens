@@ -24,7 +24,9 @@
     "preversion": "git checkout master && yarn ci",
     "postversion": "git push --follow-tags"
   },
-  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "bin": {
     "jl": "lib/jl.js"
   },
