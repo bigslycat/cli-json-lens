@@ -9,6 +9,23 @@ CLI for getting values from JSON
 
 ## Usage
 
+```
+$ jl <file> <path>
+```
+
+## Arguments
+
+- `file` — Relative or absolute path to file
+- `path` — Dot.notation to needle value
+
+Options
+
+- `--pretty`, `-p` — Pretty print
+- `--version`, `-v` — Show version number
+- `--help`, `-h` — Show help
+
+## Example
+
 ```sh
 jl package.json dependencies.express
 # =>> ^4.16.3
