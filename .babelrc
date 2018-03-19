@@ -12,7 +12,6 @@
     }]
   ],
   "plugins": [
-    "ramda",
     "transform-object-rest-spread"
   ]
 }
