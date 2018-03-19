@@ -18,7 +18,7 @@ $ jl <file> <path>
 - `file` — Relative or absolute path to file
 - `path` — Dot.notation to needle value
 
-Options
+## Options
 
 - `--pretty`, `-p` — Pretty print
 - `--version`, `-v` — Show version number
