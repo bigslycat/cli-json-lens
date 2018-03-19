@@ -1,6 +1,6 @@
 # jlens [![Build Status][status-img]][status-url]
 
-CLI for getting values from JSON
+CLI for getting values from JSON files
 
 ## Install
 

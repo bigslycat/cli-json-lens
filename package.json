@@ -1,7 +1,7 @@
 {
   "name": "jlens",
   "version": "1.0.3",
-  "description": "CLI for getting values from JSON",
+  "description": "CLI for getting values from JSON files",
   "keywords": [
     "JSON",
     "lens",
