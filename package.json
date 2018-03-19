@@ -1,7 +1,7 @@
 {
   "name": "jlens",
   "version": "1.0.0",
-  "description": "CLI lens for JSON",
+  "description": "CLI for getting values from JSON",
   "repository": "git@github.com:bigslycat/jlens.git",
   "author": "Pavel Tereschenko <me@stupidcat.wtf> (https://github.com/bigslycat)",
   "license": "MIT",
