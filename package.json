@@ -22,7 +22,6 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
-    "babel-plugin-ramda": "^1.5.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
@@ -36,13 +35,16 @@
     "flow-typed": "^2.4.0",
     "glow": "^1.2.2",
     "husky": "^0.14.3",
+    "jest": "^22.4.2",
     "prettier": "^1.11.1",
-    "ramda": "^0.25.0",
     "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-json": "^2.3.0",
-    "rollup-plugin-node-resolve": "^3.2.0",
-    "yargs": "^11.0.0"
+    "rollup-plugin-node-resolve": "^3.2.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "meow": "^4.0.0"
   }
 }
