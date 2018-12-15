@@ -1,5 +1,7 @@
 # jlens [![Build Status][status-img]][status-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bigslycat/jlens.svg)](https://greenkeeper.io/)
+
 CLI for getting values from JSON files
 
 ## Install
